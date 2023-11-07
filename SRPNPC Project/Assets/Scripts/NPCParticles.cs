@@ -8,7 +8,7 @@ public class NPCParticles : MonoBehaviour
 
     private void Start()
     {
-        GetComponent<Health>().OnDied += HandleNPCDied;
+        GetComponent<IHealth>().OnDied += HandleNPCDied;
     }
 
     private void HandleNPCDied()

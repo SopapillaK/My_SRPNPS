@@ -5,6 +5,6 @@ public class NPC : MonoBehaviour
 {
     internal void TakeDamage(int amount)
     {
-        GetComponent<Health>().TakeDamage(amount);
+        GetComponent<IHealth>().TakeDamage(amount);
     }
 }
