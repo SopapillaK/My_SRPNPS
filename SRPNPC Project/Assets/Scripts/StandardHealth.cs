@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class StandardHealth : MonoBehaviour, IHealth
 {
-    [SerializeField] private int startingHealth = 100;
+    [SerializeField] public int startingHealth = 100;
 
     private int currentHealth;
 
